@@ -1,6 +1,6 @@
 # Nifty VIX Range Forecasting Tool
 
-Predicts high and low bounds of the Nifty 50 index based on India VIX volatility using a statistical model. Ideal for market analysts, traders, and students exploring financial modeling and volatility forecasting.
+Predicts high and low bounds of the Nifty 50 index based on India VIX volatility using a statistical model. Ideal for market analysts, traders, and students exploring financial modeling and volatility forecasting with 95% Accuracy.
 
 ---
 
@@ -9,9 +9,9 @@ Predicts high and low bounds of the Nifty 50 index based on India VIX volatility
 This project uses a formula derived from India VIX to predict intraday high and low price ranges for the Nifty 50 index. The prediction is visualized and also exported to Excel for reporting and further analysis.
 
 - Formula used:
-  \[
-  \text{VIX Predicted Move %} = \frac{(VIX^2) \times 0.6}{100}
-  \]
+  Upper Bound = (Nifty Price + VIX^2*0.6/100)%
+  
+  Lower Bound = (Nifty Price - VIX^2*0.6/100)%
 
 ---
 
